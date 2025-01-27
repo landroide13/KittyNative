@@ -5,16 +5,16 @@ import { ActionBarComponent } from '../../shared/action-bar/action-bar.component
 
 
 @Component({
-    selector: 'ns-current-challenge',
-    templateUrl: './current-challenge.component.html',
-    styleUrls: ['./current-challenge-common.css', 
-                './current-challenge.component.css',
+    selector: 'ns-cart',
+    templateUrl: './cart.component.html',
+    styleUrls: ['./cart.component.css', 
+                './cart.component.ios.css',
                 // './current-challenge.component.ios.css'
               ],
     imports: [NativeScriptCommonModule, ActionBarComponent, NativeScriptRouterModule],
     schemas: [NO_ERRORS_SCHEMA],
   })
-  export class CurrentChallengeComponent {
+  export class CartComponent {
 
     constructor(){}
 
