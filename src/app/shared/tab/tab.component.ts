@@ -2,7 +2,6 @@ import { Component, NO_ERRORS_SCHEMA, inject } from '@angular/core'
 import { NativeScriptCommonModule, NativeScriptRouterModule } from '@nativescript/angular'
 import { Page } from '@nativescript/core'
 
-
 @Component({
   selector: 'ns-tab',
   templateUrl: './tab.component.html',
@@ -13,4 +12,16 @@ import { Page } from '@nativescript/core'
   imports: [NativeScriptCommonModule, NativeScriptRouterModule],
   schemas: [NO_ERRORS_SCHEMA],
 })
-export class TabComponent {}
+
+export class TabComponent {
+
+
+
+
+
+
+
+
+
+
+}

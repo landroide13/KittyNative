@@ -3,7 +3,6 @@ import { ModalDialogService, NativeScriptCommonModule, NativeScriptRouterModule,
 import { Page } from '@nativescript/core'
 import { ActionBarComponent } from '../../shared/action-bar/action-bar.component';
 
-
 @Component({
     selector: 'ns-cart',
     templateUrl: './cart.component.html',
@@ -17,5 +16,7 @@ import { ActionBarComponent } from '../../shared/action-bar/action-bar.component
   export class CartComponent {
 
     constructor(){}
+
+    
 
   }
